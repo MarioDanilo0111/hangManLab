@@ -1,5 +1,7 @@
 # Hangin Man
 
+## Python Laboratory
+
 Welcome to the Hangman game! This is a classic word-guessing game where your goal is to guess the secret word one letter at a time. If you guess a letter correctly, it will be revealed in the word. But be careful, each wrong guess brings you one step closer to being "hanged."
 
 ## How to Play
