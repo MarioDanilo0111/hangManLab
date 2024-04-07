@@ -17,6 +17,7 @@ secret_word = random.choice(words)
 chain = '-' * len(secret_word)
 print('Welcome to Hangman!')
 attempts = 0
+printword = secret_word.upper()
 
 while True:
     print(chain)
@@ -91,9 +92,9 @@ while True:
             print('| / \\')
             print('|⏠   ⏠')
             print('⎺⎺⎺⎺⎺⎺')
-            print(f'GAME OVER 😾! The secret word was, {secret_word}')
+            print(f'GAME OVER 😾! The secret word was, {printword}')
             break
         
     if chain == secret_word: 
-        print(f'YOU WIN! The secret word was, {secret_word}')
+        print(f'YOU WIN! The secret word was,{printword}')
         break
